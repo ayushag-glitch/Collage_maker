@@ -51,6 +51,6 @@ def CollageCreate(AddressofFolder):
   return collage
 # skimage.io.imshow(collage)
 
-img_dir = './assignment1/*.png'
+img_dir = './image_folder/*.png'
 collage = CollageCreate(img_dir)
 io.imshow(collage)
